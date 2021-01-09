@@ -17,6 +17,8 @@ const App = () => {
     new Date(Date.now() + 14 * 24 * 60 * 60 * 1000).toString()
   );
 
+  console.log(targetDate);
+
   return (
     <main className="main">
       <div className="main__container">
