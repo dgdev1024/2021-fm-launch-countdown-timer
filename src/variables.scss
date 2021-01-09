@@ -1,0 +1,22 @@
+// Google Fonts
+@import url("https://fonts.googleapis.com/css2?family=Red+Hat+Text:wght@700&display=swap");
+
+// Screen Variables
+$screen-small: "(min-width: 600px)";
+$screen-medium: "(min-width: 800px)";
+
+// Color Variables
+$color-grayish-blue: hsl(237, 18%, 59%);
+$color-soft-red: hsl(345, 95%, 68%);
+$color-white: hsl(0, 0%, 100%);
+$color-dark-desaturated-blue: hsl(236, 21%, 26%);
+$color-very-dark-blue: hsl(235, 16%, 14%);
+$color-blackish-blue: hsl(234, 17%, 12%);
+$color-facebook-blue: #4267b2;
+$color-instagram-magenta: #c13584;
+$color-pinterest-red: #c92228;
+
+// Font Variables
+$font-family: "Red Hat Text", sans-serif;
+$font-size: 14px;
+$font-weight: 700;

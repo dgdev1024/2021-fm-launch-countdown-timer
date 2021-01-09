@@ -1,0 +1,32 @@
+@import "../../variables.scss";
+
+.footer {
+  display: flex;
+
+  &__social-button {
+    margin: 0px 8px;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+
+    &:focus {
+      outline: none;
+    }
+
+    &--facebook:hover path {
+      fill: $color-facebook-blue;
+    }
+
+    &--instagram:hover path {
+      fill: $color-instagram-magenta;
+    }
+
+    &--pinterest:hover path {
+      fill: $color-pinterest-red;
+    }
+  }
+
+  &__social-icon path {
+    transition: 0.3s;
+  }
+}
